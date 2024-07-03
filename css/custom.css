@@ -83,11 +83,11 @@ body {
 }
 
 .common-text-color {
-    	color:  #eb5e54;
+    	color:  #ea5d56;
 }
 
 .common-bg-color {
-    background-color:  #eb5e54;
+    background-color:  #ea5d56;
 }
 
 .title {
@@ -188,9 +188,9 @@ section .parallax  {
     box-shadow: none;
     border: 1px solid #ccc;
     color: #ccc;
-    margin-top: 10px;
-    margin-bottom: 9px;
-    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 11px;
+    margin-right: 26px;
 }
 a.navbar-brand {
     color: #fff;
@@ -552,7 +552,7 @@ a.navbar-brand {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/images/renovations_melbourne.jpg) top center no-repeat #000;
+    background: url(/images/renovations_melbourne_news.png) top center no-repeat #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -646,7 +646,7 @@ a.navbar-brand {
 }
 .welcome .welcome-body .brand-heading {
     margin: 0 auto 3px;
-    font-size: 57px;
+    font-size: 61px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -763,6 +763,7 @@ a.navbar-brand {
 }
 .features-item {
     margin-bottom: 50px;
+	margin-left: 75px;
 }
 
 .features-title {
@@ -1314,7 +1315,7 @@ form .form-control.captcha  {
 
 }
 .navbar-custom .navbar-brand .black_logo{
-    width: 250px;
+    width: 200px;
     opacity: 1;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
@@ -1337,6 +1338,7 @@ form .form-control.captcha  {
 }
 .navbar-custom.top-nav-collapse a.navbar-brand .white_logo{
     opacity:1;
+    margin-top: 0px;
 }
 @media(max-width:767px)  {
     
@@ -1489,6 +1491,20 @@ footer p  {
     .about_mobile{
         margin-bottom: 25px;
         margin-top: 25px;
+    }
+}
+
+#fahim {
+	
+	position: absolute;
+    	float: right;
+    	margin-top: -70px;
+    	margin-left: 81%;
+}
+
+@media (max-width: 768px) {
+    .anbc-single {
+        display: none;
     }
 }
 /*
