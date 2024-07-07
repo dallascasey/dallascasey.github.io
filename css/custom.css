@@ -849,8 +849,11 @@ a.navbar-brand .light {
 .section-portfolio .portfolio-item {
     margin: 0;
     padding: 0;
-    width: 330px;
-    height: 330px;
+}
+
+.section-portfolio .portfolio-item img {
+    width: 100%;
+    height: auto;
 }
 
 .portfolio {
@@ -1493,9 +1496,8 @@ footer p {
 
 #side-logo-wrapper {
     position: absolute;
-    float: right;
-    margin-top: 75px;
-    margin-left: 81%;
+    margin-top: -75px;
+    right: 0;
 }
 
 @media (max-width: 768px) {
